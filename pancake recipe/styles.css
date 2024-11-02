@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff4e6; /* Light background color */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #f79d00; /* Vibrant header color */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 5px solid #f2b632; /* Accent border */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #f79d00; /* Header color for sections */
+    border-bottom: 2px solid #f79d00; /* Section border */
+    padding-bottom: 10px;
+}
+
+.ingredients-list, .recipe-links, .instructions-list {
+    list-style-type: square; /* Different bullet style for lists */
+    padding-left: 20px;
+}
+
+.instructions-list {
+    list-style-type: decimal; /* Use decimal numbers for ordered list */
+    padding-left: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: block; /* Makes the image a block element */
+    margin-left: auto; /* Centers the image */
+    margin-right: auto; /* Centers the image */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
